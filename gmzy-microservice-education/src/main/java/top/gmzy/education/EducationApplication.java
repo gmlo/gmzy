@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @ComponentScan(basePackages={"top.gmzy.education","top.gmzy.common"})
-//@EnableEurekaClient
+@EnableEurekaClient
 public class EducationApplication {
 
 	public static void main(String[] args){
