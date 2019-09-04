@@ -17,6 +17,7 @@
         <dependency>
             <groupId>top.gmzy</groupId>
             <artifactId>gmzy-framework-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
