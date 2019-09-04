@@ -43,7 +43,7 @@
 
             <dependency>
                 <groupId>top.gmzy</groupId>
-                <artifactId>gmzy-framework-top.gmzy.common</artifactId>
+                <artifactId>gmzy-framework-common</artifactId>
                 <version>${gmzy.version}</version>
             </dependency>
 
