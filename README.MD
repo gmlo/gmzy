@@ -20,8 +20,8 @@
 ### gmzy-microservice-education
 - 课程中心
 
-### gmzy-commonservfuice=eureka
-- eureka 服务发现
+### gmzy-commonservfuice-eureka
+- 服务发现
 
 
 
