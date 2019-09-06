@@ -15,10 +15,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
-/**
- * @author wgm
- */
-public class CodeGenerator {
+public class CodeGenerator2 {
 
 	@Test
 	public void genCode() {
@@ -32,7 +29,7 @@ public class CodeGenerator {
 		GlobalConfig gc = new GlobalConfig();
 		String projectPath = System.getProperty("user.dir");
 		gc.setOutputDir(projectPath + "/src/main/java");
-		gc.setAuthor("wgm");
+		gc.setAuthor("Wgm");
 		gc.setOpen(false); //生成后是否打开资源管理器
 		gc.setFileOverride(false); //重新生成时文件是否覆盖
 		gc.setServiceName("%sService");	//去掉Service接口的首字母I
@@ -44,17 +41,17 @@ public class CodeGenerator {
 
 		// 3、数据源配置
 		DataSourceConfig dsc = new DataSourceConfig();
-		dsc.setUrl("jdbc:mysql://47.105.135.67:3306/gmzy_" + moduleName);
+		dsc.setUrl("jdbc:mysql://localhost:3306/gmzy_" + moduleName);
 		dsc.setDriverName("com.mysql.jdbc.Driver");
 		dsc.setUsername("root");
-		dsc.setPassword("Wgm123321");
+		dsc.setPassword("123456");
 		dsc.setDbType(DbType.MYSQL);
 		mpg.setDataSource(dsc);
 
 		// 4、包配置
 		PackageConfig pc = new PackageConfig();
 		pc.setModuleName(moduleName); //模块名
-		pc.setParent("top.gmzy");
+		pc.setParent("com.guli");
 		pc.setController("controller");
 		pc.setEntity("entity");
 		pc.setService("service");
