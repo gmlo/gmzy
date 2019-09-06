@@ -42,7 +42,7 @@ public class GmzyException extends RuntimeException {
 	 */
 	@Override
 	public String toString() {
-		return "GmloException{" +
+		return "GmzyException{" +
 				"code=" + code +
 				", message=" + this.getMessage() +
 				'}';

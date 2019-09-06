@@ -6,7 +6,6 @@
         <artifactId>gmzy-framework-parent</artifactId>
         <groupId>top.gmzy</groupId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../gmzy-framework-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 

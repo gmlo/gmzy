@@ -13,7 +13,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @author wgm
- * @since 2019/6/24
  */
 @Configuration
 @EnableSwagger2
@@ -35,7 +34,7 @@ public class Swagger2Config {
 				.title("文件管理微服务")
 				.description("本文档描述了文件管理微服务接口定义")
 				.version("1.0")
-				.contact(new Contact("Helen", "http://atguigu.com", "55317332@qq.com"))
+				.contact(new Contact("Wgm", "http://www.gmzy.top", "g_mlo@outlook.com"))
 				.build();
 	}
 }
